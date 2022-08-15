@@ -13,6 +13,5 @@ makeNegative(0.12); // return -0.12
 */
 
 function makeNegative(num) {
-  // Code?
-  return num * -1
+  return -Math.abs(num);
 }
