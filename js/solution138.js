@@ -10,3 +10,10 @@ function getSize(length, height, width) {
   output.push(volume)
   return output
 }
+
+/*  SUPER CLEAN  
+const getSize = (w, h, d) => [
+  (w * h + w * d + h * d) * 2,
+  w * h * d
+];
+*/
